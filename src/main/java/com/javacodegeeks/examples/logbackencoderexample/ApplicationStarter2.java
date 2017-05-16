@@ -16,6 +16,7 @@ public class ApplicationStarter2 {
 			try {
 				Thread.sleep( 200L );
 			} catch ( final InterruptedException e ) {
+				
 				LOGGER.error( "an error occurred", e );
 				
 			}
